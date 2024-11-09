@@ -41,6 +41,11 @@
   }
 </script>
 
+<!-- Improved UI Changes  -->
+<!-- Buy in Bulk Button -->
+<!-- Removed Second Navigation Checkout Menu Option -->
+<!-- Footer redesign -->
+
 <header>
   <section style="position: relative; left: 1%; display: flex; flex-direction: row; gap: 20px;">
     <img src="src/assets/Blinkee-logo.webp" width=300>
@@ -48,14 +53,14 @@
   </section>
   <nav>
     <button>Account</button>
-    <button>Checkout</button>
+    <!--<button>Checkout</button>-->
     <button>Custom Blinkees</button>
     <button>Products</button>
     <button>Contact</button>
     <button>About</button>
     <button>Menu Item</button>
     <section>
-      <img src="src/assets/1413908.png" width=15>
+      <img src="src/assets/1413908.png" width=18>
       <label for="shopping-cart">{x}</label>
     </section>
   </nav>
@@ -118,27 +123,29 @@
 </main>
 <footer>
   <div class="upper-footer">
-    <div style="position: relative; width: 100%; display: flex; flex-direction: row; justify-content: space-evenly;"> <!-- This is prob just gonna get deleted after our changes bc it looks really bad-->
+    <div style="position: relative; width: 100%; display: flex; flex-direction: row; justify-content: space-around;"> <!-- This is prob just gonna get deleted after our changes bc it looks really bad-->
       <ul class="first-list">
-        <button>Home</button>
+        <!--<button>Home</button> Your home navigation shouldnt be on the bottom, it should be in the nav-->
         <button>About</button>
         <button>Return Policy</button>
         <button>Shipping Policy</button>
-        <button>Contact</button>
-        <button>Cart</button>
-        <button>Checkout</button>
-        <button>Account</button>
+        <button>Coupon</button>
+        <!--<button>Contact</button> Why have contact on this side but the phone and email on the other?-->
         <button>Blinkee.com Resellers and Dropshippers</button>
       </ul>
       <ul class="second-list">
+        <p style="color: white; font-size: 95%; margin:0;">Contacts:</p>
         <button>415.261.0675</button>
         <button>Matt@Blinkee.com</button>
-        <button>Logout</button>
-        <button>My Account</button>
-        <button>Checkout</button>
-        <button>Coupon</button>
+        <!--<button>My Account</button> Account in both? -->
+        <!--<button>Checkout</button> Checkout in both? -->
       </ul>
-      <ul></ul>
+      <ul class="third-list">
+        <button>Cart</button>
+        <button>Checkout</button>
+        <button>Account</button>
+        <button>Logout</button>
+      </ul>
     </div>
   </div>
   <div class="lower-footer">
@@ -153,7 +160,7 @@
     color: black;
 
     width: 100%;
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto', sans-serif;
   }
 
   header {
@@ -179,6 +186,7 @@
     right: 2%;
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
 
   nav button {
@@ -255,7 +263,10 @@
   .first-list {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     padding: 20px 0px;
+
+    min-width: 25%;
   }
 
   .first-list button {
@@ -269,10 +280,31 @@
   .second-list {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     padding: 20px 0px;
+    text-align: center;
+
+    min-width: 25%;
   }
 
   .second-list button {
+    background-color: rgb(30,30,30);
+    color: white;
+    border: none;
+
+    font-size: 95%;
+  }
+
+  .third-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+
+    min-width: 25%;
+  }
+
+  .third-list button {
     background-color: rgb(30,30,30);
     color: white;
     border: none;
