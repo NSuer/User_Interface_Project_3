@@ -48,14 +48,14 @@ Chosen Methods
 
 #### Item Listings
 ![Item Listing Examples](src/assets/Item_Listings.png)\
-Three examples of how we could seperate the standard and bulk buying processes. This would help clear confusion of the actual price.
+Three examples of how we could separate the standard and bulk buying processes. This would help clear confusion of the actual price.
 
 #### Product Seperation
 ![Product Seperation Examples](src/assets/Product_Seperation.png)\
-Three examples of how popular websites, Amazon, Target, and Ebay, seperate their items.
+Three examples of how popular websites, Amazon, Target, and Ebay, separate their items.
 
 #### Figma
 ![Figma Picture](src/assets/Figma.png)\
-We also created a figma digital sketch of the homepage. You can use this link to view it: [link](https://www.figma.com/design/YuXij3fd8w6rPIs51JV1G0/Figma-basics?node-id=601-9&t=cAYFKjjlQhCwvhNZ-1)
+We also created a digital sketch using Figma of the homepage. You can use this link to view it: [link](https://www.figma.com/design/YuXij3fd8w6rPIs51JV1G0/Figma-basics?node-id=601-9&t=cAYFKjjlQhCwvhNZ-1)
 
 ### 4. Feedback
