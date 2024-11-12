@@ -40,21 +40,21 @@ Chosen Methods
     - Questionnaire: https://docs.google.com/forms/d/e/1FAIpQLSf_jZzDSNIZvfFB4CkvMpjwsvOJp8bPbNUije5bH_2pf06zrQ/viewform?usp=sf_link
 
 ### 3. Sketch and get feedback
-# Homepage
+#### Homepage
 ![Homepage](src/assets/Homepage.png)
 
-# Products Page
+#### Products Page
 ![Products Page](src/assets/Products_Page.png)
 
-# Item Listings
+#### Item Listings
 ![Item Listing Examples](src/assets/Item_Listings.png)
 Three examples of how we could seperate the standard and bulk buying processes. This would help clear confusion of the actual price.
 
-# Product Seperation
+#### Product Seperation
 ![Product Seperation Examples](src/assets/Product_Seperation.png)
 Three examples of how popular websites, Amazon, Target, and Ebay, seperate their items.
 
-# Figma
+#### Figma
 ![Figma Picture](src/assets/Figma.png)
 We also created a figma digital sketch of the homepage. You can use this link to view it: [link](https://www.figma.com/design/YuXij3fd8w6rPIs51JV1G0/Figma-basics?node-id=601-9&t=cAYFKjjlQhCwvhNZ-1)
 
