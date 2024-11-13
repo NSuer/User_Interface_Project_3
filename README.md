@@ -13,6 +13,7 @@ On first glance, we noticed several things that could be improved, some of those
 - Products Page - This page isn't structured overly well. Doesn't stick with the four per row theme of the main page and is somewhat hard to differentiate between the different items.
 
 ### 2. Redesign research, data, planning
+
 Chosen Methods
 - Expert heuristic evaluation
     - To complete this method, we will read through each of the linked articles on the “Heuristic evaluation” Canvas page. After reading through each of the heuristics, we will determine which are most applicable to our chosen website. We will then determine if each of the chosen guidelines is addressed by the current website. For those that are not yet addressed, we will figure out the best way to implement it in our redesign.
@@ -38,6 +39,19 @@ Chosen Methods
     - To complete this method, we will make a questionnaire that contains all ten of the SUS statements. We will ask the participants from the observational study to complete this questionnaire after they finish with the tasks. We will then follow the steps outlined by the linked website on the Canvas page to score this UI and determine how good its usability is. This overall score, along with the scores for each of the individual statements, will help us evaluate the usability of the site and identify areas for improvement.
 
     - Questionnaire: https://docs.google.com/forms/d/e/1FAIpQLSf_jZzDSNIZvfFB4CkvMpjwsvOJp8bPbNUije5bH_2pf06zrQ/viewform?usp=sf_link
+
+- Surprise Interviews
+    - We asked 3 participants from the R21 UC Trains Voice team two questions: What do you like about this website? What do you dislike?
+    - Interviewee one (Om)
+        - I dislike the Blinkee logo coloring. It looks bad on a white background.
+        - I like the rounded corners on buttons.
+    - Interviewee two (Rey)
+        - I dislike the white void at the top
+        - Proceeded to leave before I could ask what things were good.
+    - Inteviewee three (Gowtham)
+        - I dislike the colors, its hard on the eyes. I dislike the URL display at the top, I dislike the customer reviews overview, I dislike the buttons being stacked, the stacking of the footer is ugly.
+        - I like the sorting option being up front in the header. I dislike the header being stacked now that I look at it.
+
 
 ### 3. Sketch and get feedback
 #### Homepage
