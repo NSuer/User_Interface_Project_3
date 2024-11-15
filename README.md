@@ -1,6 +1,6 @@
 # User_Interface_Project_3
 Members: Sam Weese, William Braun, Owen Richards, and Nathan Suer
-
+Sam wuz here1!!!
 ## Design
 ### 1. Choose a UI to fix
 We decided to fix the Blinkee website, https://blinkee.com/
