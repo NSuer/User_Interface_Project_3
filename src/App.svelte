@@ -1,4 +1,6 @@
 <script>
+  import CustomBlinkees from './CustomBlinkees.svelte';
+  let currentPage = 'home';
   let x = 0, count1 = 0, count2 = 0, count3 = 0, count4 = 0, count5 = 0, count6 = 0, count7 = 0, count8 = 0, count9 = 0, count10 = 0, count11 = 0, count12 = 0, count13 = 0, count14 = 0, count15 = 0, count16 = 0;
   let productsCheck = true;
 
@@ -43,13 +45,6 @@
     for (let i = 0; i < increment ; i++) {
       x += 1;
     }
-
-  import CustomBlinkees from './CustomBlinkees.svelte';
-  let currentPage = 'home';
-
-  function addtocart() {
-    x += 1;
-
   }
 
   function incrementUp(val) {
@@ -164,7 +159,6 @@
   function showHome() {
     productsCheck = true;
   }
-
 </script>
 
 <!-- Improved UI Changes  -->
