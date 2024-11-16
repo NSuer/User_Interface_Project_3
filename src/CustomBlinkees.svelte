@@ -4,6 +4,7 @@
   let dragColor = '';
   let currentLEDIndex = -1;
   let animationInterval = null;
+  let fileInput;
 
   // Handle image file upload
   function fileUpload(event) {
@@ -66,6 +67,10 @@
     stopAnimations();
     uploadedImage = null;
     leds = [];
+
+    if (fileInput) {
+      fileInput.value = '';
+    }
   }
 </script>
 
@@ -74,7 +79,7 @@
 
   <div class="upload-section">
     <label for="upload">Upload Your Artwork:</label>
-    <input type="file" id="upload" accept="image/*" on:change={fileUpload} />
+    <input type="file" id="upload" accept="image/*" bind:this={fileInput} on:change={fileUpload} />
   </div>
 
   {#if uploadedImage}
@@ -149,34 +154,18 @@
     position: absolute;
   }
 
-  .flash {
-    animation: flash-animation 1s infinite alternate;
-  }
-
-  @keyframes flash-animation {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-
-  .fade {
-    animation: fade-animation 2s infinite;
-  }
-
-  @keyframes fade-animation {
-    0% {
-      opacity: 0;
+  @keyframes fade {
+    0%, 100% {
+        opacity: 0;
     }
     50% {
-      opacity: 1;
+        opacity: 1;
     }
-    100% {
-      opacity: 0;
-    }
-  }
+}
+
+.fade {
+    animation: fade 2s linear forwards;
+}
 
   .hidden {
     display: none;
@@ -186,7 +175,7 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 20px;
+    margin-top: 10px;
   }
 
   .buttons {
