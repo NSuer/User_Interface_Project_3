@@ -168,7 +168,7 @@
 
 <header>
   <section style="position: relative; left: 1%; display: flex; flex-direction: row; gap: 20px;">
-    <img src="src/assets/Blinkee-logo.webp" width=300 height=26 style="position: relative; right: 5px; top: 7px;">
+    <img src="src/assets/Blinkee-logo.webp" width=300 height=26 style="position: relative; right: 5px; top: 7px; cursor: pointer;" on:click={() => currentPage = 'home'}>
     <input placeholder="Search for...">
   </section>
   <nav>
