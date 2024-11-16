@@ -21,8 +21,8 @@
     import { onMount } from "svelte";
     let leds = []; // stores LED positions and effects
 
-    const handleDragStart = (event, effect) => {
-      event.dataTransfer.setData('effect', effect);
+    const handleDragStart = (event, color) => {
+      event.dataTransfer.setData('effect', color);
     }
 
     const handleDrop = (event) => {
@@ -60,10 +60,20 @@
       </div>
     {/if}
 
+    <!-- LEDs will be dynamically rendered here -->
+    {#each leds as led}
+      <div 
+        style="left: {led.x}px; top: {led.y}px;" 
+        class={led.effect} 
+        role="button" 
+        aria-label={`LED with ${led.effect} effect`}>
+      </div>
+    {/each}
+
     <div class="leds">
       <!-- Placeholder LEDs -->
       {#each ["red", "orange", "yellow", "green", "blue", "purple", "pink", "white"] as color}
-        <img src={`https://via.placeholder.com/50/${color}?text=+`} alt="{color} LED" />
+        <img src={`https://via.placeholder.com/50/${color}?text=+`} alt="{color} LED" draggable="true" on:dragstart={(e) => handleDragStart(e, color)}/>
       {/each}
     </div>
     
@@ -152,12 +162,13 @@
     cursor: grab;
   }
 
-  .led.dropped {
+  .dropped {
     position: absolute;
     width: 20px;
     height: 20px;
     background-color: red;
     border-radius: 50%;
+    cursor: grab;
   }
 
   #image-container {
