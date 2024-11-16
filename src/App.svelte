@@ -43,6 +43,13 @@
     for (let i = 0; i < increment ; i++) {
       x += 1;
     }
+
+  import CustomBlinkees from './CustomBlinkees.svelte';
+  let currentPage = 'home';
+
+  function addtocart() {
+    x += 1;
+
   }
 
   function incrementUp(val) {
@@ -171,10 +178,10 @@
     <input placeholder="Search for...">
   </section>
   <nav>
-    <button on:click={showHome}>Home</button> <!-- Added home button to navigation -->
-    <button on:click={showProducts}>Products</button>
+    <button on:click={() => currentPage = 'home'}>Home</button> <!-- Added home button to navigation -->
+    <button on:click={() => currentPage = 'products'}>Products</button>
     <!--<button>Checkout</button>-->
-    <button>Custom Blinkees</button>
+    <button on:click={() => currentPage = 'customBlinkees'}>Custom Blinkees</button>
     <button>Account</button>
     <!--<button>Contact</button> We don't need another contact button -->
     <button>About</button>
@@ -186,7 +193,7 @@
   </nav>
 </header>
 <main>
-  {#if productsCheck}
+  {#if currentPage === 'home'}
     <div class="menu-row">
       <div class="menu-item">
         <img src="src/assets/Light-Up-Pirate-Rapier-Expandable-Sword-Main-350x350.webp" width=300>
@@ -269,7 +276,7 @@
         </div>
       </div>
     </div>
-  {:else}
+  {:else if currentPage === 'products'}
     <div class="products">
       <div class="row-1">
         <div class="menu-item">
@@ -520,8 +527,12 @@
         </div>
       </div>
     </div>
+
+  {:else if currentPage === 'customBlinkees'}
+    <CustomBlinkees />
   {/if}
 </main>
+
 <footer>
   <div class="upper-footer">
     <div style="position: relative; width: 100%; display: flex; flex-direction: row; justify-content: space-around;">
