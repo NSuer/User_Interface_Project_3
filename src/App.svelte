@@ -172,13 +172,27 @@
     <input placeholder="Search for...">
   </section>
   <nav>
-    <button on:click={() => currentPage = 'home'}>Home</button> <!-- Added home button to navigation -->
-    <button on:click={() => currentPage = 'products'}>Products</button>
+    <button class="nav-item" on:click={() => currentPage = 'home'}>Home</button> <!-- Added home button to navigation -->
+    <button class="nav-item" on:click={() => currentPage = 'products'}>Products</button>
     <!--<button>Checkout</button>-->
-    <button on:click={() => currentPage = 'customBlinkees'}>Custom Blinkees</button>
-    <button>Account</button>
+
+    <!--Custom Blinkees Dropdown-->
+    <div class="dropdown">
+      <button class="nav-item" on:click={() => {currentPage = 'customBlinkees';}}>CustomBlinkees</button>
+
+      <div class="dropdown-menu">
+        <button class="dropdown-item">Pricing</button>
+        <button class="dropdown-item">Reviews</button>
+        <button class="dropdown-item">About</button>
+        <button class="dropdown-item">FAQ</button>
+        <button class="dropdown-item">Free Quote</button>
+      </div>
+
+    </div>
+
+    <button class="nav-item">Account</button>
     <!--<button>Contact</button> We don't need another contact button -->
-    <button>About</button>
+    <button class="nav-item">About</button>
     <!-- <button>Menu Item</button> this button on the action page leads to coins?!? -->
     <section>
       <img src="src/assets/1413908.png" width=18>
@@ -783,6 +797,92 @@
     justify-content: center; 
     gap: 20px; 
     align-items: center;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown menu (hidden by default) */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position below the button */
+    left: 5px;
+    z-index: 1000;
+    min-width: 125px; /* Set consistent width */
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 0; /* Remove extra padding */
+  }
+
+  .dropdown-menu button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+
+  .dropdown-menu button:hover {
+    background-color: #f0f0f0;
+  }
+
+  /* Show dropdown menu on hover or focus */
+  .dropdown:hover .dropdown-menu,
+  .dropdown:focus-within .dropdown-menu, 
+  .dropdown-menu:hover {
+    display: block;
+  }
+
+  .nav-item {
+    cursor: pointer;
+    padding: 10px 10px;
+    background: none;
+    border: none;
+    text-align: left;
+    color: black;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%; /* Ensure full clickable area */
+  }
+
+  .dropdown-item {
+    display: flex; /* Ensure flexible layout */
+    justify-content: space-between; /* Push text and right alignment to edges */
+    width: 100%; /* Full width for alignment */
+    font-size: 14px;
+    text-align: left;
+    color: #000;
+    box-sizing: border-box; /* Ensure consistent sizing */
+  }
+
+  /* Highlight dropdown items on hover or focus */
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: #e0e0e0; /* Light grey background */
+    color: #000;
+    outline: none; /* Remove default focus outline */
+  }
+
+  /* Ensure all dropdown items are the same size and aligned */
+  .dropdown-item:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Highlight Custom Blinkees button on hover or focus */
+  .nav-item:hover,
+  .nav-item:focus {
+    background-color: #e0e0e0; /* Light grey background */
+    color: #000; /* Black text */
   }
 
 </style>

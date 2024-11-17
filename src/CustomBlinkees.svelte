@@ -74,8 +74,8 @@
   }
 </script>
 
-<div class="blinky-builder">
-  <h1>Blinky Builder</h1>
+<div class="blinkee-builder">
+  <h1>Blinkee Builder</h1>
 
   <div class="upload-section">
     <label for="upload">Upload Your Artwork:</label>
@@ -123,7 +123,7 @@
 </div>
 
 <style>
-  .blinky-builder {
+  .blinkee-builder {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
