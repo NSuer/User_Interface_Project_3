@@ -159,6 +159,24 @@
   function showHome() {
     productsCheck = true;
   }
+  
+  let cartItems = [
+    { id: 1, name: "Item 1", price: 10.99, quantity: 1 },
+    { id: 2, name: "Item 2", price: 15.49, quantity: 2 },
+  ];
+
+  const removeItem = (id) => {
+    cartItems = cartItems.filter((item) => item.id !== id);
+  };
+
+  const updateQuantity = (id, quantity) => {
+    cartItems = cartItems.map((item) =>
+      item.id === id ? { ...item, quantity: quantity } : item
+    );
+  };
+
+  const getTotal = () =>
+    cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
 </script>
 
 <!-- Improved UI Changes  -->
@@ -181,7 +199,7 @@
     <button>About</button>
     <!-- <button>Menu Item</button> this button on the action page leads to coins?!? -->
     <section>
-      <img src="src/assets/1413908.png" width=18>
+      <img src="src/assets/1413908.png" width=18 on:click={()=>currentPage = 'shoppingCart'}>
       <label for="shopping-cart">{x}</label>
     </section>
   </nav>
@@ -524,6 +542,36 @@
 
   {:else if currentPage === 'customBlinkees'}
     <CustomBlinkees />
+  {:else if currentPage === 'shoppingCart'}
+    
+    <div class="cart-container">
+      <h1>Your Cart</h1>
+      {#if cartItems.length === 0}
+        <p>Your cart is empty!</p>
+      {/if}
+
+      {#each cartItems as item}
+        <div class="cart-item">
+          <p>{item.name}</p>
+          <p>${item.price.toFixed(2)}</p>
+          <input
+            type="number"
+            min="1"
+            bind:value={item.quantity}
+            on:input={() => updateQuantity(item.id, item.quantity)}
+          />
+          <button on:click={() => removeItem(item.id)}>Remove</button>
+        </div>
+      {/each}
+
+      {#if cartItems.length > 0}
+        <div class="checkout-section">
+          <p>Total: ${getTotal().toFixed(2)}</p>
+          <button class="checkout-btn">Checkout</button>
+        </div>
+      {/if}
+    </div>
+  
   {/if}
 </main>
 
@@ -785,4 +833,63 @@
     align-items: center;
   }
 
+
+  .cart-container {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .cart-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-container .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .cart-container .cart-item input {
+    width: 50px;
+    text-align: center;
+  }
+  
+  .cart-container .cart-item button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cart-container .cart-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cart-container .checkout-section {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .cart-container .checkout-section .checkout-btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cart-container .checkout-section .checkout-btn:hover {
+    background-color: #218838;
+  }
+  
 </style>
