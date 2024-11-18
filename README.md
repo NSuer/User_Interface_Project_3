@@ -64,7 +64,7 @@ Chosen Methods
 ![Item Listing Examples](src/assets/Item_Listings.png)\
 Three examples of how we could separate the standard and bulk buying processes. This would help clear confusion of the actual price.
 
-#### Product Seperation
+#### Product Separation
 ![Product Seperation Examples](src/assets/Product_Seperation.png)\
 Three examples of how popular websites, Amazon, Target, and Ebay, separate their items.
 
