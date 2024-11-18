@@ -174,9 +174,11 @@
       item.id === id ? { ...item, quantity: quantity } : item
     );
   };
+  $: total = cartItems.reduce(
+    (sum, item) => sum + item.price * item.quantity,
+    0
+  );
 
-  const getTotal = () =>
-    cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
 </script>
 
 <!-- Improved UI Changes  -->
@@ -551,24 +553,24 @@
       {/if}
 
       {#each cartItems as item}
-        <div class="cart-item">
-          <p>{item.name}</p>
-          <p>${item.price.toFixed(2)}</p>
-          <input
-            type="number"
-            min="1"
-            bind:value={item.quantity}
-            on:input={() => updateQuantity(item.id, item.quantity)}
-          />
-          <button on:click={() => removeItem(item.id)}>Remove</button>
-        </div>
-      {/each}
+      <div class="cart-item">
+        <p>{item.name}</p>
+        <p>${item.price.toFixed(2)}</p>
+        <input
+          type="number"
+          min="1"
+          bind:value={item.quantity}
+          on:input={() => updateQuantity(item.id, item.quantity)}
+        />
+        <button on:click={() => removeItem(item.id)}>Remove</button>
+      </div>
+    {/each}
 
-      {#if cartItems.length > 0}
-        <div class="checkout-section">
-          <p>Total: ${getTotal().toFixed(2)}</p>
-          <button class="checkout-btn">Checkout</button>
-        </div>
+    {#if cartItems.length > 0}
+      <div class="checkout-section">
+        <p>Total: ${total.toFixed(2)}</p>
+        <button class="checkout-btn">Checkout</button>
+      </div>
       {/if}
     </div>
   
