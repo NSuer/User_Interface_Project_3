@@ -64,7 +64,7 @@ Chosen Methods
 ![Item Listing Examples](src/assets/Item_Listings.png)\
 Three examples of how we could separate the standard and bulk buying processes. This would help clear confusion of the actual price.
 
-#### Product Seperation
+#### Product Separation
 ![Product Seperation Examples](src/assets/Product_Seperation.png)\
 Three examples of how popular websites, Amazon, Target, and Ebay, separate their items.
 
@@ -73,3 +73,16 @@ Three examples of how popular websites, Amazon, Target, and Ebay, separate their
 We also created a digital sketch using Figma of the homepage. You can use this link to view it: [link](https://www.figma.com/design/YuXij3fd8w6rPIs51JV1G0/Figma-basics?node-id=601-9&t=cAYFKjjlQhCwvhNZ-1)
 
 ### 4. Feedback
+Sketch Feedback
+
+Homepage:
+Of the people I showed the sketches too, all but one mentioned they were happy to see the moving UI on the current Blinkee webpage was gone. I mentioned to all of them that I didn't include the footer in this sketch and explained it would be smaller and separated into categories, to which they all agreed with the change.
+
+Products Page:
+They all agreed in adding dividers/spacers or something similar to split the items apart. They also agreed in adding "Home" to the navigation.
+
+Item Listing:
+Of the three sketches, two said they liked the middle one where the standard and bulk buying process are separated vertically. The last one said they preferred it stacked in the far right sketch. 
+
+Product Separation:
+They all agreed that there should be some separation between the product and the background, unlike the actual website, but all had different answers of their preferred styling. One person said they preferred the left to keep things simple. Another said the dividers would allow for more separation and would be less confusing to the user. The last said although the backgrounds change, they would like a navigation menu on the left side to easily sort through all of the products on the webpage.
