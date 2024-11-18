@@ -959,6 +959,7 @@
   .nav-item:focus {
     background-color: #e0e0e0; /* Light grey background */
     color: #000; /* Black text */
+  }
 
   .menu-item h2, .menu-item-last h2 {
     font-size: 150%;
