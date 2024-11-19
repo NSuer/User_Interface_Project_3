@@ -1,12 +1,13 @@
 # User_Interface_Project_3
 Members: Sam Weese, William Braun, Owen Richards, and Nathan Suer
 
-# Link to your source code on github
+# Link to the source code on github
 https://github.com/NSuer/User_Interface_Project_3
 
 # Link to the publicly hosted application
 https://nsuer.github.io/User_Interface_Project_3/
-(Our Pictures don't work, see video or download code to see them)
+
+(Our Pictures don't work, see demo video or download code to see them)
 
 # Description of the project
 Our redesign of Blinkee (https://blinkee.com/) focused on enhancing the user experience by streamlining the interface and reducing visual clutter. The primary goal was to create a clean, modern, and minimalist website that prioritizes user engagement while avoiding unnecessary distractions. The updated design ensures that users can seamlessly navigate the platform, easily find their desired products, and customize Blinkees without feeling overwhelmed. This redesign combines functionality with aesthetics to provide an enjoyable shopping experience for Blinkee’s audience, ensuring that the platform is both engaging and effective.
