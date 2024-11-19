@@ -142,7 +142,7 @@ We implemented each item individually (which would need to be redesigned as an o
 
 Our header and footer were implemented by mapping out the header and footer of the original page, then modifying the html and CSS to look them better. In purpose, we removed redundant links and large stacks. We attempted to keep all of the same core information, however, and instead converged redundant links into each other.
 
-We imlemented our svelte at the top of the page, then our html, and then our CSS below it. 
+We implemented our svelte at the top of the page, then our html, and then our CSS below it. 
 
 # Use of AI
 - I (Nathan) use github copilot. I use it as more of an autocomplete, rather than it generating stuff.
