@@ -85,7 +85,7 @@ Three examples of how popular websites, Amazon, Target, and Ebay, separate their
 
 ### Figma
 ![Figma Picture](src/assets/Figma.png)\
-We also created a digital sketch using Figma of the homepage. You can use this link to view it: [link](https://www.figma.com/design/YuXij3fd8w6rPIs51JV1G0/Figma-basics?node-id=601-9&t=cAYFKjjlQhCwvhNZ-1)
+We also created a digital sketch using Figma of the homepage. [You can view it here.](https://www.figma.com/design/YuXij3fd8w6rPIs51JV1G0/Figma-basics?node-id=601-9&t=cAYFKjjlQhCwvhNZ-1)
 
 ## 4. Feedback
 Sketch Feedback
@@ -153,7 +153,11 @@ We imlemented our svelte at the top of the page, then our html, and then our CSS
 Obviously the work is never finished. We didn't have enough time to implement all we wanted . Here is a list of things we would implement if we had more time.
 - "Buy in bulk" working and interactive. We would've liked to have a slider that would automatically shange the price given the quantity you order.
 - Custom Blinkees having more options and an order feature.
-- Adding more products from the original website 
+- Adding more products from the original website
+- Adding cookies for the cart, so that users can leave the page and return to their cart
+- Adding routing and multiple pages
+- Adding a checkout page with card support
+- Adding an option on the checkout page to scale the price according to bulk pricing, with a graph along side it.
 
 TODO Double check me and add some - Nate
 
