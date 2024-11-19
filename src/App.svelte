@@ -226,7 +226,7 @@
 
     <!--Custom Blinkees Dropdown-->
     <div class="dropdown">
-      <button class="nav-item" on:click={() => {currentPage = 'customBlinkees';}}>CustomBlinkees</button>
+      <button class="nav-item" on:click={() => {currentPage = 'customBlinkees';}}>Custom Blinkees</button>
 
       <div class="dropdown-menu">
         <button class="dropdown-item">Pricing</button>
