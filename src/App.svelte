@@ -189,6 +189,7 @@
     addItemToCart(14, "Red Heart Flashing Battery Operated Body Light Lapel Pins", 1.79, count14);
     addItemToCart(15, "Non Light Up Jacko Thriller Beat It Billie Jean Right Hand Sequin Glove", 2.49, count15);
     addItemToCart(16, "Infinite Illumination LED Tunnel Coaster", 3.79, count16);
+    return ""
   }
 
 
@@ -256,7 +257,7 @@
           <h2 style="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3)">Light Up Pirate Rapier Expandable Sword</h2>
           <div class="item-details">
             <section>
-              <h4 style="line-height: 0px; padding: 0;">$7.69</h4>
+              <h4 style="line-height: 14px; padding: 0;">$7.69</h4>
               <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                   <button class="increments" on:click={() => incrementDown("count1")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                   <input bind:value={count1} placeholder={count1} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -267,7 +268,7 @@
             <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
             <section>
               <h2 style="line-height: 30px; font-size: 130%;">Bulk Order</h2>
-              <h4 style="line-height: 0px;">As low as $4.89 Bulk</h4>
+              <h4 style="line-height: 14px;">As low as $4.89 Bulk</h4>
               <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
             </section>
           </div>
@@ -279,7 +280,7 @@
           <h2 style="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3)">Light Up Expandable Magic Wizard with Prism Ball</h2>
           <div class="item-details">
             <section>
-              <h4 style="line-height: 0px; padding: 0;">$4.99</h4>
+              <h4 style="line-height: 14px; padding: 0;">$4.99</h4>
               <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                   <button class="increments" on:click={() => incrementDown("count2")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                   <input bind:value={count2} placeholder={count2} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -290,7 +291,7 @@
             <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
             <section>
               <h2 style="line-height: 30px; font-size: 130%;">Bulk Order</h2>
-              <h4 style="line-height: 0px;">As low as $4.29 Bulk</h4>
+              <h4 style="line-height: 14px;">As low as $4.29 Bulk</h4>
               <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
             </section>
           </div>
@@ -302,7 +303,7 @@
           <h2 style="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3)">Galactic LED Expandable Green Light Saber Sword</h2>
           <div class="item-details">
             <section>
-              <h4 style="line-height: 0px; padding: 0;">$4.49</h4>
+              <h4 style="line-height: 14px; padding: 0;">$4.49</h4>
               <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                   <button class="increments" on:click={() => incrementDown("count3")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                   <input bind:value={count3} placeholder={count3} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -313,7 +314,7 @@
             <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
             <section>
               <h2 style="line-height: 30px; font-size: 130%;">Bulk Order</h2>
-              <h4 style="line-height: 0px;">As low as $3.79 Bulk</h4>
+              <h4 style="line-height: 14px;">As low as $3.79 Bulk</h4>
               <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
             </section>
           </div>
@@ -325,7 +326,7 @@
           <h2 style="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3)">LED Shark Light Up Saber Sword</h2>
           <div class="item-details">
             <section>
-              <h4 style="line-height: 0px; padding: 0;">$8.49</h4>
+              <h4 style="line-height: 14px; padding: 0;">$8.49</h4>
               <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                   <button class="increments" on:click={() => incrementDown("count4")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                   <input bind:value={count4} placeholder={count4} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -336,7 +337,7 @@
             <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
             <section>
               <h2 style="line-height: 30px; font-size: 130%;">Bulk Order</h2>
-              <h4 style="line-height: 0px;">As low as $6.59 Bulk</h4>
+              <h4 style="line-height: 14px;">As low as $6.59 Bulk</h4>
               <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
             </section>
           </div>
@@ -352,7 +353,7 @@
             <h2 style="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3);">Custom LED Flashing Blinky Light Pins - LogoBlinkee.com</h2>
             <div class="item-details">
               <section>
-                <h4 style="line-height: 0px; padding: 0;">Starting at $1.44</h4>
+                <h4 style="line-height: 14px; padding: 0;">Starting at $1.44</h4>
                 <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                     <button class="increments" on:click={() => incrementDown("count5")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                     <input bind:value={count5} placeholder={count5} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -363,7 +364,7 @@
               <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
               <section style="position: relative; bottom: 11px;">
                 <h2 style="line-height: 30px; font-size: 130%;">Bulk Order</h2>
-                <h4 style="line-height: 10px;">As low as N/A in Bulk</h4>
+                <h4 style="line-height: 14px;">As low as N/A in Bulk</h4>
                 <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
               </section>
             </div>
@@ -375,7 +376,7 @@
             <h2 style="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3)">Black Light LED Light Keychain Flashlight</h2>
             <div class="item-details">
               <section>
-                <h4 style="line-height: 0px; padding: 0;">Starting at $0.99</h4>
+                <h4 style="line-height: 14px; padding: 0;">Starting at $0.99</h4>
                 <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                     <button class="increments" on:click={() => incrementDown("count6")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                     <input bind:value={count6} placeholder={count6} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -386,7 +387,7 @@
               <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
               <section style="position: relative; bottom: 11px;">
                 <h2 style="line-height: 30px; font-size: 130%;">Bulk Order</h2>
-                <h4 style="line-height: 10px;">As low as $0.60 in Bulk</h4>
+                <h4 style="line-height: 14px;">As low as $0.60 in Bulk</h4>
                 <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
               </section>
             </div>
@@ -398,7 +399,7 @@
             <h2 style="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3)">Light Up Devil Horns Blue</h2>
             <div class="item-details">
               <section>
-                <h4 style="line-height: 0px; padding: 0;">Starting at $1.79</h4>
+                <h4 style="line-height: 14px; padding: 0;">Starting at $1.79</h4>
                 <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                     <button class="increments" on:click={() => incrementDown("count7")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                     <input bind:value={count7} placeholder={count7} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -409,7 +410,7 @@
               <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
               <section style="position: relative; bottom: 11px;">
                 <h2 style="line-height: 30px; font-size: 130%;">Bulk Order</h2>
-                <h4 style="line-height: 10px;">As low as $1.49 in Bulk</h4>
+                <h4 style="line-height: 14px;">As low as $1.49 in Bulk</h4>
                 <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
               </section>
             </div>
@@ -421,7 +422,7 @@
               <h2 style="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3)">Slingshot Flying Helicopter with Multicolor LED</h2>
               <div class="item-details">
                 <section>
-                  <h4 style="line-height: 0px; padding: 0;">Starting at $0.49</h4>
+                  <h4 style="line-height: 14px; padding: 0;">Starting at $0.49</h4>
                   <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                       <button class="increments" on:click={() => incrementDown("count8")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                       <input bind:value={count8} placeholder={count8} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -432,7 +433,7 @@
                 <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
                 <section style="position: relative; bottom: 11px;">
                   <h2 style="line-height: 30px; font-size: 130%;">Bulk Order</h2>
-                  <h4 style="line-height: 10px;">As low as $0.34 in Bulk</h4>
+                  <h4 style="line-height: 14px;">As low as $0.34 in Bulk</h4>
                   <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
                 </section>
               </div>
@@ -447,7 +448,7 @@
             <h2 style="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3)">White Fiber Optic Wand with White LEDs</h2>
             <div class="item-details">
               <section>
-                <h4 style="line-height: 0px; padding: 0;">$1.89</h4>
+                <h4 style="line-height: 14px; padding: 0;">$1.89</h4>
                 <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                     <button class="increments" on:click={() => incrementDown("count9")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                     <input bind:value={count9} placeholder={count9} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -458,7 +459,7 @@
               <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
               <section style="position: relative; bottom: 11px;">
                 <h2 style="line-height: 30px; font-size: 130%;">Bulk Order</h2>
-                <h4 style="line-height: 10px;">As low as $1.49 in Bulk</h4>
+                <h4 style="line-height: 14px;">As low as $1.49 in Bulk</h4>
                 <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
               </section>
             </div>
@@ -470,7 +471,7 @@
             <h2 style="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3)">Light Up Soft Bubble Novelty Flashing Rings Pack of 24</h2>
             <div class="item-details">
               <section style="position: relative; width: 40%;">
-                <h4 style="line-height: 0px; padding: 0;">$28.44</h4>
+                <h4 style="line-height: 14px; padding: 0;">$28.44</h4>
                 <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                     <button class="increments" on:click={() => incrementDown("count10")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                     <input bind:value={count10} placeholder={count10} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -480,7 +481,7 @@
               </section>
               <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
               <section style="position: relative; bottom: 11px;">
-                <h2 style="line-height: 10px; font-size: 130%;">Bulk Order</h2>
+                <h2 style="line-height: 14px; font-size: 130%;">Bulk Order</h2>
                 <h4 style="line-height: 15px;">As low as $23.99 Bulk</h4>
                 <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
               </section>
@@ -493,7 +494,7 @@
             <h2 style="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3)">White LED Switch Activated Bottle Base Light Display Dri...</h2>
             <div class="item-details">
               <section>
-                <h4 style="line-height: 0px; padding: 0;">$4.19</h4>
+                <h4 style="line-height: 14px; padding: 0;">$4.19</h4>
                 <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                     <button class="increments" on:click={() => incrementDown("count11")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                     <input bind:value={count11} placeholder={count11} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -504,7 +505,7 @@
               <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
               <section style="position: relative; bottom: 11px;">
                 <h2 style="line-height: 30px; font-size: 130%;">Bulk Order</h2>
-                <h4 style="line-height: 10px;">As low as $3.49 in Bulk</h4>
+                <h4 style="line-height: 14px;">As low as $3.49 in Bulk</h4>
                 <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
               </section>
             </div>
@@ -516,7 +517,7 @@
             <h2 style="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3)">Light Up LED Flashing Cowboy Hat with White Sequins</h2>
             <div class="item-details">
               <section>
-                <h4 style="line-height: 0px; padding: 0;">$7.39</h4>
+                <h4 style="line-height: 14px; padding: 0;">$7.39</h4>
                 <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                     <button class="increments" on:click={() => incrementDown("count12")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                     <input bind:value={count12} placeholder={count12} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -527,7 +528,7 @@
               <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
               <section style="position: relative; bottom: 11px;">
                 <h2 style="line-height: 30px; font-size: 130%;">Bulk Order</h2>
-                <h4 style="line-height: 10px;">As low as $6.29 in Bulk</h4>
+                <h4 style="line-height: 14px;">As low as $6.29 in Bulk</h4>
                 <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
               </section>
             </div>
@@ -542,7 +543,7 @@
             <h2 sstyle="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3)">Groovy Disco Mirror Ball Earrings</h2>
             <div class="item-details">
               <section>
-                <h4 style="line-height: 0px; padding: 0;">$1.49</h4>
+                <h4 style="line-height: 14px; padding: 0;">$1.49</h4>
                 <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                     <button class="increments" on:click={() => incrementDown("count13")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                     <input bind:value={count13} placeholder={count13} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -553,7 +554,7 @@
               <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
               <section style="position: relative; bottom: 11px;">
                 <h2 style="line-height: 30px; font-size: 130%;">Bulk Order</h2>
-                <h4 style="line-height: 10px;">As low as $1.14 in Bulk</h4>
+                <h4 style="line-height: 14px;">As low as $1.14 in Bulk</h4>
                 <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
               </section>
             </div>
@@ -565,7 +566,7 @@
             <h2 style="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3)">Red Heart Flashing Battery Operated Body Light Lapel...</h2>
             <div class="item-details">
               <section>
-                <h4 style="line-height: 0px; padding: 0;">$1.79</h4>
+                <h4 style="line-height: 14px; padding: 0;">$1.79</h4>
                 <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                     <button class="increments" on:click={() => incrementDown("count14")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                     <input bind:value={count14} placeholder={count14} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -576,7 +577,7 @@
               <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
               <section style="position: relative; bottom: 11px;">
                 <h2 style="line-height: 30px; font-size: 130%;">Bulk Order</h2>
-                <h4 style="line-height: 10px;">As low as $1.44 in Bulk</h4>
+                <h4 style="line-height: 14px;">As low as $1.44 in Bulk</h4>
                 <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
               </section>
             </div>
@@ -588,7 +589,7 @@
             <h2 style="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3)">Non Light Up Jacko Thriller Beat It Billie Jean Right...</h2>
             <div class="item-details">
               <section>
-                <h4 style="line-height: 0px; padding: 0;">$2.49</h4>
+                <h4 style="line-height: 14px; padding: 0;">$2.49</h4>
                 <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                     <button class="increments" on:click={() => incrementDown("count15")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                     <input bind:value={count15} placeholder={count15} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -599,7 +600,7 @@
               <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
               <section style="position: relative; bottom: 11px;">
                 <h2 style="line-height: 30px; font-size: 130%;">Bulk Order</h2>
-                <h4 style="line-height: 10px;">As low as $2.19 in Bulk</h4>
+                <h4 style="line-height: 14px;">As low as $2.19 in Bulk</h4>
                 <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
               </section>
             </div>
@@ -611,7 +612,7 @@
             <h2 style="padding: 15px 0; margin: 0; text-shadow: 1px 1px 2px rgb(0,0,0,0.3)">Infinite Illumination LED Tunnel Coaster</h2>
             <div class="item-details">
               <section>
-                <h4 style="line-height: 0px; padding: 0;">$3.79</h4>
+                <h4 style="line-height: 14px; padding: 0;">$3.79</h4>
                 <section style="position: relative; display: flex; flex-direction: row; justify-content: center; gap: 10px; width: 100%; align-items: center; margin-bottom: 10px;">
                     <button class="increments" on:click={() => incrementDown("count16")} style="cursor: pointer; padding: 2px 5px; border-radius: 20px; border: 2px solid black; background-color: white; color: black;">-</button>
                     <input bind:value={count16} placeholder={count16} type="number" style="padding: 0; margin: 0; width: 30px;">
@@ -622,7 +623,7 @@
               <div style="position: relative; bottom: 0px; height: 135px; width: 2px; background-color: black;"></div>
               <section style="position: relative; bottom: 11px;">
                 <h2 style="line-height: 30px; font-size: 130%;">Bulk Order</h2>
-                <h4 style="line-height: 10px;">As low as $3.09 in Bulk</h4>
+                <h4 style="line-height: 14px;">As low as $3.09 in Bulk</h4>
                 <button style="cursor: pointer; background-color: rgb(255,255,234);">Buy in Bulk</button>
               </section>
             </div>
@@ -642,7 +643,7 @@
   {:else if currentPage === 'customBlinkees'}
     <CustomBlinkees />
   {:else if currentPage === 'shoppingCart'}
-    {populateCart()} 
+    {populateCart()}
     <div class="cart-container">
       <h1>Your Cart</h1>
       {#if cartItems.length === 0}
@@ -1137,6 +1138,14 @@
   
   .cart-container .checkout-section .checkout-btn:hover {
     background-color: #218838;
+  }
+
+  .cart-item p {
+    justify-content: space-between;
+    flex: 1;
+  }
+  .cart-item input {
+    margin-right: 10px;
   }
   
 </style>
