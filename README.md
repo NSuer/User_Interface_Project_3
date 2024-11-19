@@ -154,4 +154,4 @@ TODO Double check me and add some - Nate
 
 # Demo Video 
 
-- TODO I need someone to do this 
+[Demo Video](https://youtu.be/TyvI_N7YLaY)
