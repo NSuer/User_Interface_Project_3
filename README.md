@@ -8,30 +8,28 @@ Members: Sam Weese, William Braun, Owen Richards, and Nathan Suer
 (Our Pictures don't work, see demo video or download code to see them)
 
 # Description of the project
-Our redesign of [Blinkee](https://blinkee.com/) focused on enhancing the user experience by streamlining the interface and reducing visual clutter. The primary goal was to create a clean, modern, and minimalist website that prioritizes user engagement while avoiding unnecessary distractions. The updated design ensures that users can seamlessly navigate the platform, easily find their desired products, and customize Blinkees without feeling overwhelmed. This redesign combines functionality with aesthetics to provide an enjoyable shopping experience for Blinkee’s audience, ensuring that the platform is both engaging and effective.
+Our redesign of [Blinkee](https://blinkee.com/) focused on enhancing the user experience by streamlining the interface and reducing visual clutter. The primary goal was to create a clean, modern, and minimalistic website that prioritizes user engagement while avoiding unnecessary distractions. The updated design ensures that users can seamlessly navigate the platform, easily find their desired products, and customize Blinkees without feeling overwhelmed. This redesign combines functionality with aesthetics to provide an enjoyable shopping experience for Blinkee’s audience, ensuring that the platform is both engaging and effective.
 
 Key features of the redesign include:
-- Simplified Layout: We reorganized the site structure to make navigation intuitive and visually appealing. The emphasis is on clarity and ease of use.
+- Simplified Layout: We reorganized the site structure to make navigation intuitive and visually appealing with emphasis on clarity and ease of use.
 - Redesigned custom Blinkee Creator: A dedicated, user-friendly tool allows customers to design their own custom Blinkees, offering a personalized experience with minimal friction.
-
-- TODO Double check me
 
 # Design Work
 ## 1. Choose a UI to fix
-We decided to fix the Blinkee website, https://blinkee.com/
+We decided to redesign the Blinkee website, https://blinkee.com/. We believe the issues with the Blinkee website center around usability and design concerns. As such, we will attempt to remedy the below issues as well as possible in our demo. 
 
-On first glance, we noticed several things that could be improved, some of those are:
+On first glance, we noticed several things that could be improved, including:
 - "Qty Discount" Button - They displayed the price for this with the label "Bulk." They should use the same wording to keep correlation.
 - Footer - The whole footer is a mess. It takes up half of the screen, two long vertical lists, duplicate navigation buttons (Checkout, My Account/Account), and the Home navigation only at the bottom.
-- They added a Christmas theme to the home page that moves and it's very distracting, it's linked to their Christmas themed blinkees but why wouldn't that be on the main page?
-- "Custom Blinkee" - Button in the navigation leads to a completely new website with no way to get back.
-- Products Page - This page isn't structured overly well. Doesn't stick with the four per row theme of the main page and is somewhat hard to differentiate between the different items.
+- They added a Christmas theme to the home page that moves and is very distracting. The theme linked to their Christmas themed blinkees but why wouldn't that be on the main page?
+- "Custom Blinkee" - Button in the navigation leads to a completely new website with no way to get back aside from using the back button built into one's search engine.
+- Products Page - This page is not structured well. It fails to stick with the four items per row layout of the main page, and it can be somewhat hard to differentiate between the different items.
 
 ## 2. Redesign research, data, planning
 
 Chosen Methods
 - Expert heuristic evaluation
-    - To complete this method, we will read through each of the linked articles on the “Heuristic evaluation” Canvas page. After reading through each of the heuristics, we will determine which are most applicable to our chosen website. We will then determine if each of the chosen guidelines is addressed by the current website. For those that are not yet addressed, we will figure out the best way to implement it in our redesign.
+    - To complete this method, we will read through each of the linked articles on the “Heuristic evaluation” Canvas page. After reading through each of the heuristics, we will determine which are most applicable to our chosen website. We will then determine if each of the chosen guidelines is addressed by the current website. For those that are not yet addressed, we will figure out the best way to implement them in our redesign.
 
     - Chosen Heuristics
         - Visibility of System Status
@@ -50,10 +48,17 @@ Chosen Methods
         4. Navigate to the "Custom Blinkees" page. Start the process of creating a custom Blinkee by uploading an image to the correct page. Add at least one LED to the custom page and make the LED fade. Once finished with the custom Blinkee, return to the original website without using your search engine's browser. 
         5. Find the return policy for Blinkee.com and start a return. 
 
+    - Process:
+        - To carry out this study, three participants of differing ages were asked to complete the above tasks while thinking aloud. The first participant was a middle-aged female. The second participant was a college-aged female. The third participant was a high school-aged male. The screen and audio were recorded while the participants completed said tasks so we could compare what they said and did to best identify difficulty points. 
+
+    - Results:
+
 - System Usability Scale
     - To complete this method, we will make a questionnaire that contains all ten of the SUS statements. We will ask the participants from the observational study to complete this questionnaire after they finish with the tasks. We will then follow the steps outlined by the linked website on the Canvas page to score this UI and determine how good its usability is. This overall score, along with the scores for each of the individual statements, will help us evaluate the usability of the site and identify areas for improvement.
 
     - Questionnaire: https://docs.google.com/forms/d/e/1FAIpQLSf_jZzDSNIZvfFB4CkvMpjwsvOJp8bPbNUije5bH_2pf06zrQ/viewform?usp=sf_link
+
+    - Results:
 
 - Surprise Interviews
     - We asked 3 participants from the R21 UC Trains Voice team two questions: What do you like about this website? What do you dislike?
@@ -129,38 +134,32 @@ The redesigned Blinkee website interface is thoughtfully structured to provide u
     - Navigation Menu: A fixed top navigation bar provides access to key pages, including Home, Products, Custom Blinkees, Account, and About.
     - Footer Links: The footer contains quick links to policies, FAQs, and contact information, ensuring all essential resources are readily accessible.
 
-- TODO Double check me
-
 # Implementation of this application 
 
 Our website is implemented as a monolithic, single file page. This is due to it using svelte over svelte-kit, and we agreed that the project timeline was more important than restarting or implementing a router system in svelte. We implemented a switch statement which would load components based upon a global switching variable. We changed this switching variable upon button presses and site events. 
 
-
 We implemented each item individually (which would need to be redesigned as an object in the future) and added a tracking variable to each one. A single function is called to convert all of these variables to cart items upon the cart being clicked.
 
-Our header and footer we implmented by mapping out the header and footer of the original page, and then modifying the html and CSS to look better. In purpose, we removed redundant links, and large stacks. We attempted to keep all the same core information, however, and instead converged redundant links into each other.
+Our header and footer were implemented by mapping out the header and footer of the original page, then modifying the html and CSS to look them better. In purpose, we removed redundant links and large stacks. We attempted to keep all of the same core information, however, and instead converged redundant links into each other.
 
 We imlemented our svelte at the top of the page, then our html, and then our CSS below it. 
 
 # Use of AI
 - I (Nathan) use github copilot. I use it as more of an autocomplete, rather than it generating stuff.
-- Used ChatGPT to make our description better. I used the prompt: "Make this more fleshed out our rediesign of Blinkee (https://blinkee.com/) looked to decrease the clutter on the screen and make a more simplsitic and non-distracting website. Users can add items to the cart and create custom blinkees." This was a starting point and further edits were made by us. 
-- Used ChatGPT to make our description of the interface in detail better. I used the prompt and gave it pictures of our interface :"I now need a Description of the interface in detail. The features are custom blinkee, product pages, and shopping cart." This was a starting point and further edits were made by us. 
-
-- TODO Double check me
+- Used ChatGPT to make our description better. I used the prompt: "Make this more fleshed out our redesign of Blinkee (https://blinkee.com/) looked to decrease the clutter on the screen and make a more simplisitic and non-distracting website. Users can add items to the cart and create custom blinkees." This was a starting point and further edits were made by us. 
+- Used ChatGPT to make our description of the interface in detail better. I used the prompt and gave it pictures of our interface: "I now need a Description of the interface in detail. The features are custom blinkee, product pages, and shopping cart." This was used as a starting point, and further edits were made by us. 
+- William used ChatGPT to assist in creating a functional image editor on the "Custom Blinkees" page. It gave him a starting point for how to best do file uploading using svelte, and it also assisted in achieving drag and drop functionality for the LEDs onto the uploaded image. 
 
 # Future work
-Obviously the work is never finished. We didn't have enough time to implement all we wanted . Here is a list of things we would implement if we had more time.
-- "Buy in bulk" working and interactive. We would've liked to have a slider that would automatically shange the price given the quantity you order.
-- Custom Blinkees having more options and an order feature.
+Obviously the work is never finished. We didn't have enough time to implement all we wanted. Here is a list of things we would implement if we had more time.
+- "Buy in bulk" working and interactive. We would've liked to have a slider that would automatically change the price given the quantity ordered
+- Custom Blinkees having more options and an order feature
 - Adding more products from the original website
 - Adding cookies for the cart, so that users can leave the page and return to their cart
 - Adding routing and multiple pages
 - Adding a checkout page with card support
-- Adding an option on the checkout page to scale the price according to bulk pricing, with a graph along side it.
-
-TODO Double check me and add some - Nate
+- Adding an option on the checkout page to scale the price according to bulk pricing, with a graph along side it
+- Custom Blinkees having an automatic price estimator based on the size of the image uploaded, the number of LEDs added, and the effects used. The current website only has a "Free Quote" option in terms of pricing. Automatically estimating a price based on these criteria could increase the number of sales and one's willingness to create a custom Blinkee
 
 # Demo Video 
-
 [![Demo Video](src/assets/vid_thumbnail.jpg)](https://youtu.be/TyvI_N7YLaY)
