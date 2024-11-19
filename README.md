@@ -139,8 +139,8 @@ The redesigned Blinkee website interface is thoughtfully structured to provide u
 
 # Use of AI
 - I (Nathan) use github copilot. I use it as more of an autocomplete, rather than it generating stuff.
-- Used ChatGPT to make our description better. I used the prompt: "Make this more fleshed out our rediesign of Blinkee (https://blinkee.com/) looked to decrease the clutter on the screen and make a more simplsitic and non-distracting website. Users can add items to the cart and create custom blinkees."
-- Used ChatGPT to make our description of the interface in detail better. I used the prompt and gave it pictures of our interface :"I now need a Description of the interface in detail. The features are custom blinkee, product pages, and shopping cart."
+- Used ChatGPT to make our description better. I used the prompt: "Make this more fleshed out our rediesign of Blinkee (https://blinkee.com/) looked to decrease the clutter on the screen and make a more simplsitic and non-distracting website. Users can add items to the cart and create custom blinkees." This was a starting point and further edits were made by us. 
+- Used ChatGPT to make our description of the interface in detail better. I used the prompt and gave it pictures of our interface :"I now need a Description of the interface in detail. The features are custom blinkee, product pages, and shopping cart." This was a starting point and further edits were made by us. 
 
 - TODO Double check me
 
