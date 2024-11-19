@@ -1,8 +1,24 @@
 # User_Interface_Project_3
 Members: Sam Weese, William Braun, Owen Richards, and Nathan Suer
 
-## Design
-### 1. Choose a UI to fix
+# Link to your source code on github
+https://github.com/NSuer/User_Interface_Project_3
+
+# Link to the publicly hosted application
+https://nsuer.github.io/User_Interface_Project_3/
+(Our Pictures don't work, see video or download code to see them)
+
+# Description of the project
+Our redesign of Blinkee (https://blinkee.com/) focused on enhancing the user experience by streamlining the interface and reducing visual clutter. The primary goal was to create a clean, modern, and minimalist website that prioritizes user engagement while avoiding unnecessary distractions. The updated design ensures that users can seamlessly navigate the platform, easily find their desired products, and customize Blinkees without feeling overwhelmed. This redesign combines functionality with aesthetics to provide an enjoyable shopping experience for Blinkee’s audience, ensuring that the platform is both engaging and effective.
+
+Key features of the redesign include:
+- Simplified Layout: We reorganized the site structure to make navigation intuitive and visually appealing. The emphasis is on clarity and ease of use.
+- Redesigned custom Blinkee Creator: A dedicated, user-friendly tool allows customers to design their own custom Blinkees, offering a personalized experience with minimal friction.
+
+- TODO Double check me
+
+# Design Work
+## 1. Choose a UI to fix
 We decided to fix the Blinkee website, https://blinkee.com/
 
 On first glance, we noticed several things that could be improved, some of those are:
@@ -12,7 +28,7 @@ On first glance, we noticed several things that could be improved, some of those
 - "Custom Blinkee" - Button in the navigation leads to a completely new website with no way to get back.
 - Products Page - This page isn't structured overly well. Doesn't stick with the four per row theme of the main page and is somewhat hard to differentiate between the different items.
 
-### 2. Redesign research, data, planning
+## 2. Redesign research, data, planning
 
 Chosen Methods
 - Expert heuristic evaluation
@@ -53,26 +69,26 @@ Chosen Methods
         - I like the sorting option being up front in the header. I dislike the header being stacked now that I look at it.
 
 
-### 3. Sketch and get feedback
-#### Homepage
+## 3. Sketch and get feedback
+### Homepage
 ![Homepage](src/assets/Homepage.png)
 
-#### Products Page
+### Products Page
 ![Products Page](src/assets/Products_Page.png)
 
-#### Item Listings
+### Item Listings
 ![Item Listing Examples](src/assets/Item_Listings.png)\
 Three examples of how we could separate the standard and bulk buying processes. This would help clear confusion of the actual price.
 
-#### Product Separation
+### Product Separation
 ![Product Seperation Examples](src/assets/Product_Seperation.png)\
 Three examples of how popular websites, Amazon, Target, and Ebay, separate their items.
 
-#### Figma
+### Figma
 ![Figma Picture](src/assets/Figma.png)\
 We also created a digital sketch using Figma of the homepage. You can use this link to view it: [link](https://www.figma.com/design/YuXij3fd8w6rPIs51JV1G0/Figma-basics?node-id=601-9&t=cAYFKjjlQhCwvhNZ-1)
 
-### 4. Feedback
+## 4. Feedback
 Sketch Feedback
 
 Homepage:
@@ -86,3 +102,55 @@ Of the three sketches, two said they liked the middle one where the standard and
 
 Product Separation:
 They all agreed that there should be some separation between the product and the background, unlike the actual website, but all had different answers of their preferred styling. One person said they preferred the left to keep things simple. Another said the dividers would allow for more separation and would be less confusing to the user. The last said although the backgrounds change, they would like a navigation menu on the left side to easily sort through all of the products on the webpage.
+
+# Description of the interface in detail 
+The redesigned Blinkee website interface is thoughtfully structured to provide users with a seamless and intuitive shopping experience. The interface consists of three main components: the Custom Blinkee tool, Product Pages, and the Shopping Cart. The redesigned interface achieves a balance of functionality and simplicity, ensuring an intuitive and enjoyable user journey across all features.
+
+- Custom Blinkee Tool
+    - Interactive Design Features: Users can upload their own artwork or images to create personalized Blinkees. The tool displays a preview of the customization process.
+    - Interactive Dot System: Red dots on the displayed image allow users to specify customization locations, enabling precise placement for their designs.
+    - Animation Options: Buttons at the bottom of the tool provide controls for dynamic effects, such as "Make it Flash" or "Make it Fade," ensuring flexibility in customization. Users can also reset their design to the default state with the "Reset" button.
+    - Color Selection: A palette of colors is available for users to apply to their customized Blinkees, offering a wide range of creative options.
+
+- Product Pages
+    - Simplified Product Display: Products are arranged in a clean grid layout, each displayed within a bordered card for clear differentiation.
+    - Detailed Product Information: Each product card includes the following:
+        - A product image for visual reference.
+        - A concise product name and description.
+        - Pricing details, with options for single purchase or bulk orders.
+        - "Add to Cart" and "Buy in Bulk" buttons for easy interaction.
+    - Quantity Selector: Users can adjust the number of items they want to purchase directly on the product card using intuitive increment and decrement buttons.
+
+- Shopping Cart
+    - Minimalist Cart View: The shopping cart page is designed with a focus on clarity. It displays a list of selected items along with their corresponding prices.
+    - Remove Items Feature: Users can remove items from the cart with a dedicated "Remove" button.
+    - Checkout Overview: The cart summary includes a total price calculation at the bottom, along with a prominently displayed "Checkout" button for proceeding to payment.
+
+- Additional Features
+    - Navigation Menu: A fixed top navigation bar provides access to key pages, including Home, Products, Custom Blinkees, Account, and About.
+    - Footer Links: The footer contains quick links to policies, FAQs, and contact information, ensuring all essential resources are readily accessible.
+
+- TODO Double check me
+
+# Implementation of this application 
+
+- TODO I need someone to do this 
+
+# Use of AI
+- I (Nathan) use github copilot. I use it as more of an autocomplete, rather than it generating stuff.
+- Used ChatGPT to make our description better. I used the prompt: "Make this more fleshed out our rediesign of Blinkee (https://blinkee.com/) looked to decrease the clutter on the screen and make a more simplsitic and non-distracting website. Users can add items to the cart and create custom blinkees."
+- Used ChatGPT to make our description of the interface in detail better. I used the prompt and gave it pictures of our interface :"I now need a Description of the interface in detail. The features are custom blinkee, product pages, and shopping cart."
+
+- TODO Double check me
+
+# Future work
+Obviously the work is never finished. We didn't have enough time to implement all we wanted . Here is a list of things we would implement if we had more time.
+- "Buy in bulk" working and interactive. We would've liked to have a slider that would automatically shange the price given the quantity you order.
+- Custom Blinkees having more options and an order feature.
+- Adding more products from the original website 
+
+TODO Double check me and add some - Nate
+
+# Demo Video 
+
+- TODO I need someone to do this 
