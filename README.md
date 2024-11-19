@@ -44,7 +44,7 @@ Chosen Methods
     - Tasks: 
         1. Add 3 "Multicolor Star Infinity Tunnel Necklaces" to the shopping cart
         2. Add at least 1 "Masquerade Silver Unlit Metallic Mask Mardi Gras" to the shopping cart
-        3. Navigate to the shopping cart. From here, remove all of the "Multicolor Star Infinity Tunnel Necklaces: and add at least 1 "Masquerade Silver Unlit Metallic Mask Mardi Gras." Make sure these changes are reflected in the price of all the items in the shopping cart. 
+        3. Navigate to the shopping cart. From here, remove all of the "Multicolor Star Infinity Tunnel Necklaces" and add at least 1 "Masquerade Silver Unlit Metallic Mask Mardi Gras." Make sure these changes are reflected in the cumulative price of all the items in the shopping cart. 
         4. Navigate to the "Custom Blinkees" page. Start the process of creating a custom Blinkee by uploading an image to the correct page. Add at least one LED to the custom page and make the LED fade. Once finished with the custom Blinkee, return to the original website without using your search engine's browser. 
         5. Find the return policy for Blinkee.com and start a return. 
 
