@@ -159,6 +159,53 @@
   function showHome() {
     productsCheck = true;
   }
+ 
+  let cartItems = [];
+
+  function addItemToCart(id, name, price, quantity) {
+    if (quantity < 1) {
+      return;
+    }
+    const newItem = { id, name, price: parseFloat(price), quantity: parseInt(quantity, 10) };
+    cartItems = [...cartItems, newItem];
+  }
+
+  function populateCart() {
+    cartItems = [];
+
+    addItemToCart(1, "Light Up Pirate Rapier Exandable Sword", 7.69, count1);
+    addItemToCart(2, "Light Up Expandable Magic Wizard with Prism Ball", 4.99, count2);
+    addItemToCart(3, "Galactic LED Expandable Green Light Saber Sword", 4.49, count3);
+    addItemToCart(4, "LED Shark Light Up Saber Sword", 8.49, count4);
+    addItemToCart(5, "Custom LED Flashing Blinky Light Pins - LogoBlinkee.com", 1.44, count5);
+    addItemToCart(6, "Black Light LED LIght Keychain Flashlight", 0.99, count6);
+    addItemToCart(7, "Light Up Devil Horns Blue", 1.79, count7);
+    addItemToCart(8, "Slingshot Flying Helicopter with Multicolor LED", 0.49, count8);
+    addItemToCart(9, "White Fiber Optic Want with White LEDs", 1.89, count9);
+    addItemToCart(10, "Light Up Soft Bubble Novelty Flashing Rings Pack of 24", 28.44, count10);
+    addItemToCart(11, "White LED Switch Activated Bottle Base Light Display Drink Coaster", 4.19, count11);
+    addItemToCart(12, "Light Up LED Flashing Cowboy Hat with White Sequins", 7.39, count12);
+    addItemToCart(13, "Grooby Disco Mirror Ball Earrings", 1.49, count13);
+    addItemToCart(14, "Red Heart Flashing Battery Operated Body Light Lapel Pins", 1.79, count14);
+    addItemToCart(15, "Non Light Up Jacko Thriller Beat It Billie Jean Right Hand Sequin Glove", 2.49, count15);
+    addItemToCart(16, "Infinite Illumination LED Tunnel Coaster", 3.79, count16);
+  }
+
+
+  const removeItem = (id) => {
+    cartItems = cartItems.filter((item) => item.id !== id);
+  };
+
+  const updateQuantity = (id, quantity) => {
+    cartItems = cartItems.map((item) =>
+      item.id === id ? { ...item, quantity: quantity } : item
+    );
+  };
+  $: total = cartItems.reduce(
+    (sum, item) => sum + item.price * item.quantity,
+    0
+  );
+
 </script>
 
 <!-- Improved UI Changes  -->
@@ -195,7 +242,7 @@
     <button class="nav-item">About</button>
     <!-- <button>Menu Item</button> this button on the action page leads to coins?!? -->
     <section>
-      <img src="src/assets/1413908.png" width=18>
+      <img src="src/assets/1413908.png" width=18 on:click={()=>currentPage = 'shoppingCart'}>
       <label for="shopping-cart">{x}</label>
     </section>
   </nav>
@@ -594,6 +641,36 @@
 
   {:else if currentPage === 'customBlinkees'}
     <CustomBlinkees />
+  {:else if currentPage === 'shoppingCart'}
+    {populateCart()} 
+    <div class="cart-container">
+      <h1>Your Cart</h1>
+      {#if cartItems.length === 0}
+        <p>Your cart is empty!</p>
+      {/if}
+
+      {#each cartItems as item}
+      <div class="cart-item">
+        <p>{item.name}</p>
+        <p>${item.price.toFixed(2)}</p>
+        <input
+          type="number"
+          min="1"
+          bind:value={item.quantity}
+          on:input={() => updateQuantity(item.id, item.quantity)}
+        />
+        <button on:click={() => removeItem(item.id)}>Remove</button>
+      </div>
+    {/each}
+
+    {#if cartItems.length > 0}
+      <div class="checkout-section">
+        <p>Total: ${total.toFixed(2)}</p>
+        <button class="checkout-btn">Checkout</button>
+      </div>
+      {/if}
+    </div>
+  
   {/if}
 </main>
 
@@ -1003,4 +1080,63 @@
     outline-width: 0;
   }
 
+
+  .cart-container {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .cart-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-container .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .cart-container .cart-item input {
+    width: 50px;
+    text-align: center;
+  }
+  
+  .cart-container .cart-item button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cart-container .cart-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cart-container .checkout-section {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .cart-container .checkout-section .checkout-btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cart-container .checkout-section .checkout-btn:hover {
+    background-color: #218838;
+  }
+  
 </style>
