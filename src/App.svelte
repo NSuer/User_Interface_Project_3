@@ -659,6 +659,7 @@
           min="1"
           bind:value={item.quantity}
           on:input={() => updateQuantity(item.id, item.quantity)}
+          style="background-color:white"
         />
         <button on:click={() => removeItem(item.id)}>Remove</button>
       </div>
@@ -1146,6 +1147,8 @@
   }
   .cart-item input {
     margin-right: 10px;
+    color: black;
+    border: #007bff;
+    border-radius: 10px;
   }
-  
 </style>
