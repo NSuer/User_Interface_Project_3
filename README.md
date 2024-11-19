@@ -154,4 +154,4 @@ TODO Double check me and add some - Nate
 
 # Demo Video 
 
-[Demo Video](https://youtu.be/TyvI_N7YLaY)
+[![Demo Video](src/assets/vid_thumbnail.jpg)](https://youtu.be/TyvI_N7YLaY)
