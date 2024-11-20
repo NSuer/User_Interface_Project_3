@@ -208,7 +208,7 @@ We implemented each item individually (which would need to be redesigned as an o
 ![Counter Variables Image](src/assets/Blinkee_counter_vars.jpg)
 
 Our header and footer were implemented by mapping out the header and footer of the original page, then modifying the html and CSS to look them better. In purpose, we removed redundant links and large stacks. We attempted to keep all of the same core information, however, and instead converged redundant links into each other.
-![Counter Variables Image](src/assets/Vlinkee_footer.jpg)
+![Counter Variables Image](src/assets/Blinkee_footer.jpg)
 
 We implemented our svelte at the top of the page, then our html, and then our CSS below it. 
 
