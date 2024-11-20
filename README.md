@@ -146,6 +146,7 @@ The redesigned Blinkee website interface is thoughtfully structured to provide u
     - Interactive Dot System: Red dots on the displayed image allow users to specify customization locations, enabling precise placement for their designs.
     - Animation Options: Buttons at the bottom of the tool provide controls for dynamic effects, such as "Make it Flash" or "Make it Fade," ensuring flexibility in customization. Users can also reset their design to the default state with the "Reset" button.
     - Color Selection: A palette of colors is available for users to apply to their customized Blinkees, offering a wide range of creative options.
+![image](https://github.com/user-attachments/assets/95dbde86-6b97-4b48-a736-7cc6fe8dae1b)
 
 - Product Pages
     - Simplified Product Display: Products are arranged in a clean grid layout, each displayed within a bordered card for clear differentiation.
@@ -155,15 +156,23 @@ The redesigned Blinkee website interface is thoughtfully structured to provide u
         - Pricing details, with options for single purchase or bulk orders.
         - "Add to Cart" and "Buy in Bulk" buttons for easy interaction.
     - Quantity Selector: Users can adjust the number of items they want to purchase directly on the product card using intuitive increment and decrement buttons.
+![image](https://github.com/user-attachments/assets/a63384c0-1a77-4701-bd2c-146e29445bad)
+
 
 - Shopping Cart
     - Minimalist Cart View: The shopping cart page is designed with a focus on clarity. It displays a list of selected items along with their corresponding prices.
     - Remove Items Feature: Users can remove items from the cart with a dedicated "Remove" button.
     - Checkout Overview: The cart summary includes a total price calculation at the bottom, along with a prominently displayed "Checkout" button for proceeding to payment.
+![image](https://github.com/user-attachments/assets/aeee6b2e-3f83-4b10-9dba-534e5603188a)
 
 - Additional Features
     - Navigation Menu: A fixed top navigation bar provides access to key pages, including Home, Products, Custom Blinkees, Account, and About.
+    ![image](https://github.com/user-attachments/assets/057267da-855a-4883-922e-8dd58a222fc8)
+
     - Footer Links: The footer contains quick links to policies, FAQs, and contact information, ensuring all essential resources are readily accessible.
+     ![image](https://github.com/user-attachments/assets/9e8121e7-a8f4-46d3-8b63-bfbcd2c30006)
+
+
 
 # Implementation of this application 
 
