@@ -42,16 +42,22 @@ Chosen Methods
     - To complete this method, we will recruit at least three participants and have them complete a series of tasks on the current Blinkee website. Because this website could be used by a wide variety of people, we will attempt to have some variation in our participants, especially in terms of age. The set tasks could include things such as ordering a certain item, making a custom Blinkee, navigating the shopping cart, and more. We will record the screen as participants work through these tasks, and we will ask them to think aloud as they do so. After all of the participants complete the study, we will compare what they said while completing the tasks to best identify difficulty points. 
 
     - Tasks: 
-        1. Add 3 "Multicolor Star Infinity Tunnel Necklaces" to the shopping cart
-        2. Add at least 1 "Masquerade Silver Unlit Metallic Mask Mardi Gras" to the shopping cart
+        1. Add 3 "Multicolor Star Infinity Tunnel Necklaces" to the shopping cart.
+        2. Add at least 1 "Masquerade Silver Unlit Metallic Mask Mardi Gras" to the shopping cart.
         3. Navigate to the shopping cart. From here, remove all of the "Multicolor Star Infinity Tunnel Necklaces" and add at least 1 "Masquerade Silver Unlit Metallic Mask Mardi Gras." Make sure these changes are reflected in the cumulative price of all the items in the shopping cart. 
         4. Navigate to the "Custom Blinkees" page. Start the process of creating a custom Blinkee by uploading an image to the correct page. Add at least one LED to the custom page and make the LED fade. Once finished with the custom Blinkee, return to the original website without using your search engine's browser. 
         5. Find the return policy for Blinkee.com and start a return. 
 
     - Process:
-        - To carry out this study, three participants of differing ages were asked to complete the above tasks while thinking aloud. The first participant was a middle-aged female. The second participant was a college-aged female. The third participant was a high school-aged male. The screen and audio were recorded while the participants completed said tasks so we could compare what they said and did to best identify difficulty points. 
+        - To carry out this study, three participants of differing ages were asked to complete the above tasks while thinking aloud. The first participant was a high school-aged male. The second participant was a middle-aged female. The third participant was a college-aged male. The screen and audio were recorded while the participants completed said tasks so we could compare what they said and did to best identify difficulty points. 
 
     - Results:
+        - The first participant had difficulty completing the first task. This difficulty was likely caused by a combination of his inexperience with shopping websites and him being a little unclear on what he could use to complete the tasks. He spent roughly five minutes scrolling through the products on the webpage with no luck in finding the desired product. Once it was restated that he could use anything on the website, including search bars, he quickly made use of the search bar to find the product. He had no issues completing the second task. For the third task, he first navigated to checkout before finding the shopping cart. He also did not realize that the button "Update Cart" had to be clicked before changes made in the cart were reflected in the price. For the fourth task, he had no issues creating a custom Blinkee. He was unable to find a way to return to the original website without using the browser's back button. He had no issues completing the fifth task.
+
+        - The second participant had no difficulty completing the first task, although she did start by scrolling through the products page before quickly changing her mind and using the search bar. She had no trouble completing the second task. She had no trouble with the third task, although she did decrease the quantity of the necklace to 0 rather than using the "X" button, which was centered above the item. While doing so, she stated that there should be a trash can next to the item to allow for quick removal. This participant had trouble finding where to create a custom blinkee on the "LogoBlinkee.com" website. She stated that this option should have been centered on the home page to allow for quick navigation. After a few minutes of scrolling, she clicked on "Free Quote" on the home page and believed she was on the desired page. After a few hints as to where she needed to go, she was able to find the "Build a Blinky" page. After doing so, she again restated that there should have been a more prominent button to allow for easier navigation to this page. For the fourth task, she did not realize that she was on a different website. After being told that she was on a different website, she was unable to return to the original website without using the browser's back button. She had no issues completing the fifth task, although she did state that the text that linked to the return policy should have been a different color. 
+
+    - Conclusion:
+        - Both the first and second participant independently asked if Blinkee.com was a real website. After being told that it was, they both said that the website "sucked." They both had several displeasures with the website. 
 
 - System Usability Scale
     - To complete this method, we will make a questionnaire that contains all ten of the SUS statements. We will ask the participants from the observational study to complete this questionnaire after they finish with the tasks. We will then follow the steps outlined by the linked website on the Canvas page to score this UI and determine how good its usability is. This overall score, along with the scores for each of the individual statements, will help us evaluate the usability of the site and identify areas for improvement.
@@ -59,6 +65,31 @@ Chosen Methods
     - Questionnaire: https://docs.google.com/forms/d/e/1FAIpQLSf_jZzDSNIZvfFB4CkvMpjwsvOJp8bPbNUije5bH_2pf06zrQ/viewform?usp=sf_link
 
     - Results:
+        - Participant 1:
+            Statement 1:  2 - 1 = 1 
+            Statement 2:  5 - 5 = 0
+            Statement 3:  3 - 1 = 2
+            Statement 4:  5 - 4 = 1
+            Statement 5:  5 - 1 = 4
+            Statement 6:  5 - 1 = 4
+            Statement 7:  3 - 1 = 2
+            Statement 8:  5 - 4 = 1
+            Statement 9:  3 - 1 = 2
+            Statement 10: 5 - 5 = 0
+            Total Score = 1 + 0 + 2 + 1 + 4 + 4 + 2 + 1 + 2 + 0 = 17
+        
+        - Participant 2:
+            Statement 1:  1 - 1 = 0
+            Statement 2:  5 - 4 = 1
+            Statement 3:  4 - 1 = 3
+            Statement 4:  5 - 3 = 2
+            Statement 5:  2 - 1 = 1
+            Statement 6:  5 - 4 = 1
+            Statement 7:  5 - 1 = 4
+            Statement 8:  5 - 3 = 2
+            Statement 9:  5 - 1 = 4
+            Statement 10: 5 - 1 = 4
+            Total Score = 0 + 1 + 3 + 2 + 1 + 1 + 4 + 2 + 4 + 4 = 24
 
 - Surprise Interviews
     - We asked 3 participants from the R21 UC Trains Voice team two questions: What do you like about this website? What do you dislike?
