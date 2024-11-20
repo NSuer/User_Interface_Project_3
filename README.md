@@ -202,10 +202,13 @@ The redesigned Blinkee website interface is thoughtfully structured to provide u
 # Implementation of this application 
 
 Our website is implemented as a monolithic, single file page. This is due to it using svelte over svelte-kit, and we agreed that the project timeline was more important than restarting or implementing a router system in svelte. We implemented a switch statement which would load components based upon a global switching variable. We changed this switching variable upon button presses and site events. 
+![Navigation Image](src/assets/Blinkee_header.jpg)
 
 We implemented each item individually (which would need to be redesigned as an object in the future) and added a tracking variable to each one. A single function is called to convert all of these variables to cart items upon the cart being clicked.
+![Counter Variables Image](src/assets/Blinkee_counter_vars.jpg)
 
 Our header and footer were implemented by mapping out the header and footer of the original page, then modifying the html and CSS to look them better. In purpose, we removed redundant links and large stacks. We attempted to keep all of the same core information, however, and instead converged redundant links into each other.
+![Counter Variables Image](src/assets/Vlinkee_footer.jpg)
 
 We implemented our svelte at the top of the page, then our html, and then our CSS below it. 
 
