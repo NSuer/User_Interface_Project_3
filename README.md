@@ -59,7 +59,7 @@ Chosen Methods
         - The third participant had no difficulty completing the first task, although he did start by scrolling through the products page before quickly changing his mind and using the search bar. When completing the second task, the item would not autocomplete in the search bar. Therefore, he decided to use the products page to find the mask, which took quite a bit longer than it would have had the search bar autocompleted. He had no trouble completing the third task, although he did decrease the quantity of the necklace to 0 rather than using the "X" button, which was centered above the item. He had no trouble creating a custom Blinkee for the fourth task, although he did not see the "Upload File" button initially and began dragging LEDs onto the white space on the page. He was able to find a way to return to the original website by going through the reviews, then clicking on a review titled "Blinkee.com". He then clicked on "Blinkee.com" on the line "Review of Blinkee.com". This page brought up a link to the Blinkee.com website. This solution was not intended, and he commented on how it should be easier to get to the original website without having to go through these steps. He had no trouble completing the fifth task, although he did state that the link to the return policy should be easier to see.  
 
     - Conclusion:
-        - Both the first and second participant independently asked if Blinkee.com was a real website. After being told that it was, they both said that the website "sucked." They both had several displeasures with the website. All of the users struggled to find products easily without using the search bar. Two of the participants stuggled with the navigation between the different webpages, mostly due to not having a clear path back to "home". Two of the participants also strugged using the custom blinkee page, one due to not noticing the "Upload File" button and the other due to not being able to navigate back to the actual Blinkee website. Finally, two of the participants missed the "X" button that would have been a shortcut to removing items from their shopping cart. 
+        - Both the first and second participant independently asked if Blinkee.com was a real website. After being told that it was, they both said that the website "sucked" and expressed several displeasures with the website. All of the users struggled to find products easily without using the search bar, which was not especially noticeable at first. Two of the participants stuggled with navigation between the different webpages, mostly due to not having a clear path back to the original website. Two of the participants also strugged using the custom blinkee page, one due to not noticing the "Upload File" button and the other due to not being able to find the "Build a Blinky" page. Finally, two of the participants missed the "X" button that would have been a shortcut to removing items from their shopping cart. 
 
 - System Usability Scale
     - To complete this method, we will make a questionnaire that contains all ten of the SUS statements. We will ask the participants from the observational study to complete this questionnaire after they finish with the tasks. We will then follow the steps outlined by the linked website on the Canvas page to score this UI and determine how good its usability is. This overall score, along with the scores for each of the individual statements, will help us evaluate the usability of the site and identify areas for improvement.
@@ -68,43 +68,49 @@ Chosen Methods
 
     - Results:
         - Participant 1:
-            Statement 1:  2 - 1 = 1 
-            Statement 2:  5 - 5 = 0
-            Statement 3:  3 - 1 = 2
-            Statement 4:  5 - 4 = 1
-            Statement 5:  5 - 1 = 4
-            Statement 6:  5 - 1 = 4
-            Statement 7:  3 - 1 = 2
-            Statement 8:  5 - 4 = 1
-            Statement 9:  3 - 1 = 2
-            Statement 10: 5 - 5 = 0
-            Total Score = 1 + 0 + 2 + 1 + 4 + 4 + 2 + 1 + 2 + 0 = 17
+            - Statement 1:   2 - 1 = 1 
+            - Statement 2:   5 - 5 = 0
+            - Statement 3:   3 - 1 = 2
+            - Statement 4:   5 - 4 = 1
+            - Statement 5:   5 - 1 = 4
+            - Statement 6:   5 - 1 = 4
+            - Statement 7:   3 - 1 = 2
+            - Statement 8:   5 - 4 = 1
+            - Statement 9:   3 - 1 = 2
+            - Statement 10:  5 - 5 = 0
+            - Total Score =  1 + 0 + 2 + 1 + 4 + 4 + 2 + 1 + 2 + 0 = 17
+            - Normalization: 17 * 2.5 = 42.5
         
         - Participant 2:
-            Statement 1:  1 - 1 = 0
-            Statement 2:  5 - 4 = 1
-            Statement 3:  4 - 1 = 3
-            Statement 4:  5 - 3 = 2
-            Statement 5:  2 - 1 = 1
-            Statement 6:  5 - 4 = 1
-            Statement 7:  5 - 1 = 4
-            Statement 8:  5 - 3 = 2
-            Statement 9:  5 - 1 = 4
-            Statement 10: 5 - 1 = 4
-            Total Score = 0 + 1 + 3 + 2 + 1 + 1 + 4 + 2 + 4 + 4 = 24
+            - Statement 1:   1 - 1 = 0
+            - Statement 2:   5 - 4 = 1
+            - Statement 3:   4 - 1 = 3
+            - Statement 4:   5 - 3 = 2
+            - Statement 5:   2 - 1 = 1
+            - Statement 6:   5 - 4 = 1
+            - Statement 7:   5 - 1 = 4
+            - Statement 8:   5 - 3 = 2
+            - Statement 9:   5 - 1 = 4
+            - Statement 10:  5 - 1 = 4
+            - Total Score =  0 + 1 + 3 + 2 + 1 + 1 + 4 + 2 + 4 + 4 = 24
+            - Normalization: 24 * 2.5 = 60
 
         - Participant 3:
-            Statement 1:  1 - 1 = 0
-            Statement 2:  5 - 5 = 0
-            Statement 3:  2 - 1 = 1
-            Statement 4:  5 - 1 = 4
-            Statement 5:  2 - 1 = 1
-            Statement 6:  5 - 5 = 0
-            Statement 7:  1 - 1 = 0
-            Statement 8:  5 - 5 = 0
-            Statement 9:  3 - 1 = 2
-            Statement 10: 5 - 4 = 1
-            Total Score = 0 + 0 + 1 + 4 + 1 + 0 + 0 + 0 + 2 + 1 = 9
+            - Statement 1:   1 - 1 = 0
+            - Statement 2:   5 - 5 = 0
+            - Statement 3:   2 - 1 = 1
+            - Statement 4:   5 - 1 = 4
+            - Statement 5:   2 - 1 = 1
+            - Statement 6:   5 - 5 = 0
+            - Statement 7:   1 - 1 = 0
+            - Statement 8:   5 - 5 = 0
+            - Statement 9:   3 - 1 = 2
+            - Statement 10:  5 - 4 = 1
+            - Total Score =  0 + 0 + 1 + 4 + 1 + 0 + 0 + 0 + 2 + 1 = 9
+            - Normalization: 9 * 2.5 = 22.5
+
+    - Conclusion:
+        - General guidelines for SUS questionnaires state that a score above 70 is a good one, while a score over 85 is excellent. While three participants in a very small sample size, the highest score was 60. The first score was a 42.5, the second score was a 60, and the third score was a 22.5. This range of scores shows that the users had a wide variety of experiences, but none of them had particularly high regards for the site. Based on these results, Blinkee.com had relatively poor usability based on the responses from the participants. However, it is important to note that the users were likely biased towards having negative opinions of the site due to the tasks assigned in the observational study. More specifically, the second half of the fourth question where the user was asked to return to the original website without using functionality from the web browser incited a negative bias. The point of this task was to point out how the user was taken to a different site with no direct notification, and no ways back to the original website were built-in. However, after carrying out the study, we realized how poor of a task this was. In hindsight, we would have had the user return to the original website however they so chose. Rather than relying on the task to show a flaw in the design of the website, we should have instead relied on the participants' spoken thought processes to point out this shortcoming. 
 
 - Surprise Interviews
     - We asked 3 participants from the R21 UC Trains Voice team two questions: What do you like about this website? What do you dislike?
