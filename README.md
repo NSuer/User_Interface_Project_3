@@ -56,6 +56,8 @@ Chosen Methods
 
         - The second participant had no difficulty completing the first task, although she did start by scrolling through the products page before quickly changing her mind and using the search bar. She had no trouble completing the second task. She had no trouble with the third task, although she did decrease the quantity of the necklace to 0 rather than using the "X" button, which was centered above the item. While doing so, she stated that there should be a trash can next to the item to allow for quick removal. This participant had trouble finding where to create a custom blinkee on the "LogoBlinkee.com" website. She stated that this option should have been centered on the home page to allow for quick navigation. After a few minutes of scrolling, she clicked on "Free Quote" on the home page and believed she was on the desired page. After a few hints as to where she needed to go, she was able to find the "Build a Blinky" page. After doing so, she again restated that there should have been a more prominent button to allow for easier navigation to this page. For the fourth task, she did not realize that she was on a different website. After being told that she was on a different website, she was unable to return to the original website without using the browser's back button. She had no issues completing the fifth task, although she did state that the text that linked to the return policy should have been a different color. 
 
+        - The third participant had no difficulty completing the first task, although he did start by scrolling through the products page before quickly changing his mind and using the search bar. When completing the second task, the item would not autocomplete in the search bar. Therefore, he decided to use the products page to find the mask, which took quite a bit longer than it would have had the search bar autocompleted. He had no trouble completing the third task, although he did decrease the quantity of the necklace to 0 rather than using the "X" button, which was centered above the item. He had no trouble creating a custom Blinkee for the fourth task, although he did not see the "Upload File" button initially and began dragging LEDs onto the white space on the page. He was able to find a way to return to the original website by going through the reviews, then clicking on a review titled "Blinkee.com". He then clicked on "Blinkee.com" on the line "Review of Blinkee.com". This page brought up a link to the Blinkee.com website. This solution was not intended, and he commented on how it should be easier to get to the original website without having to go through these steps. He had no trouble completing the fifth task, although he did state that the link to the return policy should be easier to see.  
+
     - Conclusion:
         - Both the first and second participant independently asked if Blinkee.com was a real website. After being told that it was, they both said that the website "sucked." They both had several displeasures with the website. 
 
@@ -90,6 +92,19 @@ Chosen Methods
             Statement 9:  5 - 1 = 4
             Statement 10: 5 - 1 = 4
             Total Score = 0 + 1 + 3 + 2 + 1 + 1 + 4 + 2 + 4 + 4 = 24
+
+        - Participant 3:
+            Statement 1:  1 - 1 = 0
+            Statement 2:  5 - 5 = 0
+            Statement 3:  2 - 1 = 1
+            Statement 4:  5 - 1 = 4
+            Statement 5:  2 - 1 = 1
+            Statement 6:  5 - 5 = 0
+            Statement 7:  1 - 1 = 0
+            Statement 8:  5 - 5 = 0
+            Statement 9:  3 - 1 = 2
+            Statement 10: 5 - 4 = 1
+            Total Score = 0 + 0 + 1 + 4 + 1 + 0 + 0 + 0 + 2 + 1 = 9
 
 - Surprise Interviews
     - We asked 3 participants from the R21 UC Trains Voice team two questions: What do you like about this website? What do you dislike?
